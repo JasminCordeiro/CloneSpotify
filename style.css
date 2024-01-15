@@ -16,6 +16,9 @@ body{
     background-color: rgba(0, 0, 0,0.6);
     color: white;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
 
@@ -24,6 +27,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0;
 }
 
 #navbar .navbar-container .logo{
@@ -35,4 +39,18 @@ body{
 #navbar .navbar-container ul{
     display: flex;
     list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li{
+    padding: 0 10px;
+}
+
+#navbar .navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+/*  Showcase  */
+#showcase{
+
 }
