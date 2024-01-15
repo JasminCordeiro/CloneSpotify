@@ -8,7 +8,23 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
+/*  Utility Classes  */
+.btn-primary{
+    background: #1db954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+
+
+}
+
 
 /*  Navbar  */
 #navbar{
@@ -52,5 +68,26 @@ body{
 
 /*  Showcase  */
 #showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(./assets/showcase.webp) center center/cover;
+    background-color: rgba(0, 0, 0,0.4);
+    background-blend-mode: color;
+}
 
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase .showcase-container h2 {
+    font-size: 5rem;
+}
+
+#showcase .showcase-container p{
+    margin: 15px 0;
 }
