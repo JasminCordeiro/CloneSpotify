@@ -90,3 +90,48 @@ body{
 #showcase .showcase-container p{
     margin: 15px 0;
 }
+
+
+/*  Footer  */
+
+#footer{
+    background: black;
+    color: white;
+}
+
+#footer .footer-content{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 80px 0;
+}
+#footer .footer-content .footer-menu{
+    margin: 0 40px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item{
+    margin: 25px 0;
+}
+
+
+#footer .footer-content .footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+/*  Footer  Socials*/
+
+.socials{
+    display: flex;
+}
+
+.socials i{
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
+
+/*  Footer Info */
+
