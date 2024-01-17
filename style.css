@@ -60,7 +60,10 @@ body{
     padding: 20px 0;
 }
 
-
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+}
 
 #navbar .navbar-container ul{
     display: flex;
@@ -73,7 +76,7 @@ body{
     transition: all 300ms ease;
 }
 
-#navbar .navbar-container ul li:hover{
+#navbar .navbar-container ul li a:hover{
     color: var(--default-green);
     cursor: pointer;
 }
@@ -89,7 +92,7 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    background: url(./assets/showcase.webp) center center/cover;
+    background: url(./assets/showcase2.jpg) center center/cover;
     background-color: rgba(0, 0, 0,0.4);
     background-blend-mode: color;
 }
@@ -151,6 +154,11 @@ body{
 .socials{
     display: flex;
 }
+.socials a{
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .socials i{
     margin: 0 20px;
