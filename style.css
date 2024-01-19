@@ -14,7 +14,12 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
-/*  Utility Classes  */
+
+/* ========================
+   Utility Classes
+======================== */
+
+
 .btn-primary{
     background: var(--default-green);
     color: white;
@@ -40,7 +45,9 @@ body{
 }
 
 
-/*  Navbar  */
+/* ========================
+        Navbar
+======================== */
 #navbar{
     display: flex;
     background-color: rgba(0, 0, 0,0.6);
@@ -85,8 +92,9 @@ body{
     border-right: 1px solid white;
 }
 
-/*  Showcase  */
-#showcase{
+/* ========================
+        Showcase
+======================== */#showcase{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -112,7 +120,9 @@ body{
 }
 
 
-/*  Footer  */
+/* ========================
+   Footer
+======================== */
 
 #footer{
     background: black;
@@ -149,7 +159,9 @@ body{
     font-size: 0.8rem;
 }
 
-/*  Footer  Socials*/
+/* ========================
+   Footer Socials
+======================== */
 
 .socials{
     display: flex;
@@ -172,8 +184,9 @@ body{
 }
 
 
-/*  Footer Info */
-.footer-info{
+/* ========================
+   Footer Info
+======================== */.footer-info{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
